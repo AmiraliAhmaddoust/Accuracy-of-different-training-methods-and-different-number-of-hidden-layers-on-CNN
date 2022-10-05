@@ -1,0 +1,1 @@
+# Accuracy-of-different-training-methods-and-different-number-of-hidden-layers-on-CNN
