@@ -1,0 +1,36 @@
+//ارایه a 
+ارایه گرد شده است که مقادیر صفر و یک داد فقط 
+for i=1:60000
+ counter_loop=1;
+  for j=1:28:784
+   counter_answer=0;
+   k=j;
+     for z=k:1:k+28
+       if a(z,i)==1
+        counter_answer= counter_answer+1;
+        end
+       if z==784
+       break;
+       end
+    end
+  array(counter_loop,i)= counter_answer;
+  counter_loop=counter_loop+1;
+  end
+end
+
+پروفایل عمودی
+
+for i=1:60000
+ counter_loop=29 
+   for j=1:28
+    counter_answer=0;
+     for z=j:28:784
+       if a(z,i)==1 
+        counter_answer= counter_answer+1;
+       end
+     end 
+   array(counter_loop,i)= counter_answer;
+    counter_loop=counter_loop+1;
+  end
+end
+پروفایل افقی
